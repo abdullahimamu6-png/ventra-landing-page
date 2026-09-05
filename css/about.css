@@ -1,0 +1,28 @@
+.about-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    text-align: center;
+    padding: 8px;
+    color: #0D293D;
+}
+
+span {
+    background-color: #2FA0ED;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.about-sub-title {
+    color: #0D293D;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.about-paragraph {
+    color: #0D293D;
+    text-align: center;
+}

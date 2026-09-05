@@ -1,0 +1,150 @@
+.who-it-helps-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    text-align: center;
+    padding: 8px;
+    color: #0D293D;
+}
+
+span {
+    background-color: #2FA0ED;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.who-it-helps-sub-title {
+    color: #0D293D;
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.who-it-help-description {
+    color: #0D293D;
+    text-align: center;
+}
+
+.who-it-helps-cards {
+    width: 90%;
+    padding: 2%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+}
+
+.boutiques {
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #C9C9C9;
+    background-color: #F5F6F6;
+    padding: 16px;
+    align-items: flex-start;
+    width: 80px;
+    height: 80px;
+}
+
+.boutiques-name {
+    color: #0D293D;
+    text-align: center;
+}
+
+.cosmetics {
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #C9C9C9;
+    background-color: #F5F6F6;
+    padding: 16px;
+    align-items: flex-start;
+    width: 80px;
+    height: 80px;
+}
+
+.cosmetics-name {
+    color: #0D293D;
+    text-align: center;
+}
+
+.resturants {
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #C9C9C9;
+    background-color: #F5F6F6;
+    padding: 16px;
+    align-items: flex-start;
+    width: 80px;
+    height: 80px;
+}
+
+.resturants-name {
+    color: #0D293D;
+    text-align: center;
+}
+
+.pharmacies {
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #C9C9C9;
+    background-color: #F5F6F6;
+    padding: 16px;
+    align-items: flex-start;
+    width: 80px;
+    height: 80px;
+}
+
+.pharmacies-name {
+    color: #0D293D;
+    text-align: center;
+}
+
+.wholesales {
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #C9C9C9;
+    background-color: #F5F6F6;
+    padding: 16px;
+    align-items: flex-start;
+    width: 80px;
+    height: 80px;
+}
+
+.wholesales-name {
+    color: #0D293D;
+    text-align: center;
+}
+
+.retails {
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #C9C9C9;
+    background-color: #F5F6F6;
+    padding: 16px;
+    align-items: flex-start;
+    width: 80px;
+    height: 80px;
+}
+
+.retails-name {
+    color: #0D293D;
+    text-align: center;
+}
+
+.saloon {
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #C9C9C9;
+    background-color: #F5F6F6;
+    padding: 16px;
+    align-items: flex-start;
+    width: 80px;
+    height: 80px;
+}
+
+.saloon-name {
+    color: #0D293D;
+    text-align: center;
+}

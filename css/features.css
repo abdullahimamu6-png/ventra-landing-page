@@ -1,0 +1,173 @@
+.features-cards {
+    width: 90%;
+    padding: 2%;
+    align-items: center;
+    margin: auto;
+}
+
+.features-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    text-align: center;
+    padding: 8px;
+    color: #0D293D;
+}
+
+span {
+    background-color: #2FA0ED;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.features-sub-title {
+    color: #0D293D;
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.features-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.invetory {
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #C9C9C9;
+    background-color: #F5F6F6;
+    padding: 16px;
+    align-items: flex-start;
+    width: 250px;
+    height: 212px;
+}
+
+.inventory-title {
+    color: #0D293D;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+.sales {
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #C9C9C9;
+    background-color: #F5F6F6;
+    padding: 16px;
+    align-items: flex-start;
+    width: 200px;
+    height: 200px;
+}
+
+.sales-title {
+    color: #0D293D;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+.expense {
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #C9C9C9;
+    background-color: #F5F6F6;
+    padding: 16px;
+    align-items: flex-start;
+    width: 200px;
+    height: 200px;
+}
+
+.expense-title {
+    color: #0D293D;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+.dashboard {
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #C9C9C9;
+    background-color: #F5F6F6;
+    padding: 16px;
+    align-items: flex-start;
+    width: 200px;
+    height: 200px;
+}
+
+.dashboard-title {
+    color: #0D293D;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+.secure-and-reliable {
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #C9C9C9;
+    background-color: #F5F6F6;
+    padding: 16px;
+    align-items: flex-start;
+    width: 200px;
+    height: 200px;
+}
+
+.secure-and-reliable-title {
+    color: #0D293D;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+.report-and-insights {
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #C9C9C9;
+    background-color: #F5F6F6;
+    padding: 16px;
+    align-items: flex-start;
+    width: 200px;
+    height: 200px;
+}
+
+.reports-and-Insights-title {
+    color: #0D293D;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+.staff-and-access-control {
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #C9C9C9;
+    background-color: #F5F6F6;
+    padding: 16px;
+    align-items: flex-start;
+    width: 200px;
+    height: 200px;
+}
+
+.staff-and-access-control-title {
+    color: #0D293D;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+.customer-and-debt-management {
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: 0 0 3px #C9C9C9;
+    background-color: #F5F6F6;
+    padding: 16px;
+    align-items: flex-start;
+    width: 200px;
+    height: 200px;
+}
+
+.customer-and-debt-management-title {
+    color: #0D293D;
+    font-weight: bolder;
+    padding: 8px;
+}
