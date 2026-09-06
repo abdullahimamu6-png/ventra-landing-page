@@ -38,14 +38,19 @@ span {
 }
 
 .boutiques {
+    display: block;
     border-style: none;
     border-radius: 8px;
     box-shadow: 0 0 3px #C9C9C9;
     background-color: #F5F6F6;
     padding: 16px;
     align-items: flex-start;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 160px;
+}
+
+.boutiques-icon {
+    justify-content: center;
 }
 
 .boutiques-name {
@@ -60,8 +65,8 @@ span {
     background-color: #F5F6F6;
     padding: 16px;
     align-items: flex-start;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 160px;
 }
 
 .cosmetics-name {
@@ -76,8 +81,8 @@ span {
     background-color: #F5F6F6;
     padding: 16px;
     align-items: flex-start;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 160px;
 }
 
 .resturants-name {
@@ -92,8 +97,8 @@ span {
     background-color: #F5F6F6;
     padding: 16px;
     align-items: flex-start;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 160px;
 }
 
 .pharmacies-name {
@@ -108,8 +113,8 @@ span {
     background-color: #F5F6F6;
     padding: 16px;
     align-items: flex-start;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 160px;
 }
 
 .wholesales-name {
@@ -124,8 +129,8 @@ span {
     background-color: #F5F6F6;
     padding: 16px;
     align-items: flex-start;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 160px;
 }
 
 .retails-name {
@@ -140,8 +145,8 @@ span {
     background-color: #F5F6F6;
     padding: 16px;
     align-items: flex-start;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 160px;
 }
 
 .saloon-name {
