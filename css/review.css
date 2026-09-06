@@ -64,6 +64,7 @@ body {
 }
 .review-card:hover{
   transform: scale(1.12);
+  transition: 0.7s ease;
 }
 .review-text {
   font-size: 0.9rem;
