@@ -1,0 +1,47 @@
+.hero {
+    display: flex;
+    gap: 200px;
+    padding: 30px;
+    margin: auto;
+}
+
+.trusted {
+    background-color: #CDE8FB;
+    border-radius: 5px;
+    color: #0D293D;
+    padding: 4px;
+    width: 250px;
+    height: 20px;
+}
+
+.left-title {
+    color: #0D293D;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 4px;
+}
+
+.left-paragraph {
+    color: #0D293D;
+    padding: 20px;
+    text-align: left;
+}
+
+.started {
+    color: #FFFFFF;
+    background-color: #0D293D;
+    border-radius: 5px;
+    padding: 5px;
+    width: 130px;
+    height: 20px;
+    text-align: center;
+}
+
+.secure {
+    color: #0D293D;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    width: 179px;
+    height: 27px;
+    align-self: baseline;
+}
