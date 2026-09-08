@@ -1,45 +1,55 @@
 #about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: transparent;
+  min-height: 560px;
+  padding: 46px 28px 28px;
+  border-radius: 0 0 28px 28px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
-
 
 .about-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 7px;
-    text-align: center;
-    padding: 8px;
-    color: #0D293D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  text-align: center;
+  padding: 10px;
+  color: #0d293d;
+  font-size: 24px;
+  font-weight: 500;
+
 }
 
-span {
+.about-title span {
     background-color: #2FA0ED;
-    width: 6px;
-    height: 6px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     display: inline-block;
 }
 
-.about-image {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
 .about-sub-title {
-    color: #0D293D;
-    text-align: center;
-    font-weight: bolder;
+  color: #0d293d;
+  text-align: center;
+  font-weight: bolder;
+  padding: 10px;
+  font-size: 28px;
+  font-weight: 600;
 }
 
 .boutiques {
-    display: block;
+  display: block;
 }
 
 .about-paragraph {
-    color: #0D293D;
-    text-align: center;
+  color: #0d293d;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  width: 700px;
+  line-height: 120%;
 }

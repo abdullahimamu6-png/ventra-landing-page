@@ -28,21 +28,21 @@ body {
   align-items: center;
   justify-content: center;
   gap: 7px;
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 500;
   color: #0d293d;
   margin-bottom: 12px;
 }
 .small-heading span {
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   background: #2fa0ed;
   border-radius: 50%;
   display: inline-block;
 }
 .heading h2 {
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 28px;
+  font-weight: 600;
   color: #0d293d;
 }
 .review-grid {
@@ -51,8 +51,7 @@ body {
   gap: 32px;
 }
 .review-card {
-  background: #f7f8f8;
-  border: 1px solid #eeeeee;
+  background-color: #f5f6f6;
   border-radius: 8px;
   padding: 20px 15px 15px;
   width: 250px;
@@ -60,11 +59,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 3px #c9c9c9;
 }
 .review-card:hover{
   transform: scale(1.12);
-  transition: 0.7s ease;
+  transition: 0.3s ease;
 }
 .review-text {
   font-size: 0.9rem;
