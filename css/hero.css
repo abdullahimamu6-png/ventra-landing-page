@@ -64,13 +64,13 @@
   align-items: center;
   max-width: 50%;
 }
-.right img {
+.right > img {
   width: 100%;
   height: 500px;
   padding-bottom: 20px;
 }
 
-.left span {
+.right span  {
   color: #0d293d;
 }
 

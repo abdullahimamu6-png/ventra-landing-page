@@ -57,3 +57,14 @@ document.querySelectorAll(".faq-category").forEach((category) => {
     });
 
 });
+
+// nav bar
+
+function sideSidebar(){
+    const sidebar = document.querySelector('.sidenav');
+    sidebar.style.display ='flex';
+}
+function closesideSidebar(){
+    const csidebar = document.querySelector('.sidenav');
+    csidebar.style.display ='none';
+}

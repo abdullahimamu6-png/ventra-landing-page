@@ -1,88 +1,265 @@
 /* review section */
 @media (max-width: 900px) {
-            .review-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
+  .review-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .features-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 800px) {
+  .hideonmobile {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+}
 
-        @media (max-width: 550px) {
-            #reviews {
-                padding: 30px 18px 25px;
-            }
+@media (max-width: 450px) {
+  #reviews {
+    padding: 30px 18px 25px;
+  }
 
-            .review-grid {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
+  .review-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 
-            .review-card {
-                min-height: 160px;
-            }
+  .review-card {
+    min-height: 160px;
+  }
 
-            .heading h2 {
-                font-size: 17px;
-            }
-            .cta-card{
-                font-size: 15px;
-            }
-            .cta-card p{
-                font-size: 10px;
-                padding: 15px;
-            }
-        }
+  .heading h2 {
+    font-size: 17px;
+  }
+  .cta-card {
+    font-size: 15px;
+  }
+  .cta-card p {
+    font-size: 10px;
+    padding: 15px;
+  }
+  .features-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .features-title {
+    font-size: 16px;
+  }
+  .features-sub-title {
+    font-size: 22px;
+  }
+  .about-title {
+    font-size: 16px;
+  }
+  .about-sub-title {
+    font-size: 18px;
+  }
+  .about-paragraph {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    width: 400px;
+  }
+  .about-image img {
+    width: 400px;
+    height: 300px;
+  }
+  /* hero */
+  .trusted {
+    width: 220px;
+    font-size: 11px;
+    height: 19px;
+    padding: 10px;
+  }
+  .left {
+    height: 270px;
+  }
+  .left h3 {
+    font-size: 30px;
+    width: 350px;
+    margin: 10px 0px;
+  }
+  .left p {
+    font-size: 14px;
+    width: 300px;
+  }
+  .left a {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+  #hero {
+    padding: 0px 10px 10px;
+  }
+  .hero {
+    margin-top: 30px;
+    display: block;
+  }
+  .right {
+    display: block;
+  }
+  .right > img {
+    height: 350px;
+    width: 350px;
+  }
+  /* who it help section */
+  #who-it-helps {
+    padding: 30px 18px 25px;
+    min-height: 450px;
+  }
+  .who-it-helps-title {
+    font-size: 16px;
+  }
+  /* .who-it-helps-title span {
+
+} */
+  .who-it-helps-sub-title {
+    font-size: 18px;
+  }
+  .who-it-helps-cards {
+    grid-template-columns: 1fr;
+    width: 320px;
+  }
+  .boutiques {
+    padding: 10px;
+    width: 90px;
+    height: 70px;
+  }
+  .boutiques-name {
+    color: #0d293d;
+    text-align: center;
+    padding: 4px;
+    font-size: 12px;
+  }
+  .who-it-helps-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .inventory {
+    width: 165px;
+    height: 160px;
+    padding: 8px;
+  }
+  .inventory-icon > img {
+    width: 20px;
+    height: 18px;
+  }
+  .inventory-title {
+    font-size: 14px;
+    padding: 4px 4px 4px 0px;
+  }
+  .inventory-description {
+    font-size: 12px;
+  }
+  .features-sub-title {
+    padding-bottom: 30px;
+  }
+  #features {
+    padding: 30px 20px 20px;
+  }
+  .small-heading {
+    font-size: 16px;
+  }
+  .small-heading h2 {
+    font-size: 14px;
+  }
+  .review-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .review-card {
+    width: 170px;
+    height: 260px;
+    padding: 15px 10px 10px;
+  }
+  #contact {
+    padding: 30px;
+    height: 1100px;
+  }
+  .contact-title{
+  font-size: 25px;
+  }
+  .left h1 {
+    font-size: 35px;
+    width: 330px;
+  }
+  .contact-container{
+    display: block;
+    height: 1100px;
+  }
+  .contact-container .left{
+    height: 350px;
+  }
+  .contact-form{
+    width: 330px;
+  }
+  .contact-details img {
+      width: 21px;
+      height: 21px;
+  }
+  .mail{
+    background-color: #0d293d;
+    width: 40px;
+    height: 40px;
+
+  }
+}
+
+/* whoithelp */
 
 /* contact section */
-@media (max-width:550px){
-    .contact-container{
-        display: block;
-    }
-    .left{
-        width: 100%;
-    }
-    .right{
-        width: 100%;
-    }
-    .highlight{
-        gap: 2px;
-        font-size: 10px;
-    }
+@media (max-width: 550px) {
+  .contact-container {
+    display: block;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+  .highlight {
+    gap: 2px;
+    font-size: 10px;
+  }
 }
-        
+
 /* faq section */
 @media (max-width: 600px) {
+  .faq-section {
+    padding: 0 15px;
+  }
 
-    .faq-section {
-        padding: 0 15px;
-    }
+  .faq-section h2 {
+    font-size: 23px;
+  }
 
-    .faq-section h2 {
-        font-size: 23px;
-    }
+  .faq-tabs {
+    gap: 8px;
+  }
 
-    .faq-tabs {
-        gap: 8px;
-    }
+  .tab {
+    font-size: 11px;
+  }
 
-    .tab {
-        font-size: 11px;
-    }
+  .faq-question {
+    padding-right: 15px;
+  }
 
-    .faq-question {
-        padding-right: 15px;
-    }
+  .faq-number {
+    margin-right: 12px;
+  }
 
-    .faq-number {
-        margin-right: 12px;
-    }
+  .faq-icon {
+    width: 35px;
+    height: 35px;
+    min-width: 35px;
+    font-size: 25px;
+  }
 
-    .faq-icon {
-        width: 35px;
-        height: 35px;
-        min-width: 35px;
-        font-size: 25px;
-    }
-
-    .faq-answer p {
-        padding: 0 20px 20px 58px;
-    }
+  .faq-answer p {
+    padding: 0 20px 20px 58px;
+  }
 }
